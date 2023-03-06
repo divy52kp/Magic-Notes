@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;display: flex;
+  flex-direction: column;
+}
+.mainCard{
+  width: 80rem;
+}
+@media (max-width: 1104px){
+  .mainCard{
+    width: 950px;
+  }
+}
+@media (max-width: 991px) {
+  .mainCard{
+    width: 700px;
+  }
+}
+@media (max-width: 947px){
+  .mainCard{
+    width: 670px;
+  }
+}
+@media (max-width: 690px){
+  .mainCard{
+    width: 530px;
+  }
+}
+@media (max-width: 500px){
+  .mainCard{
+    width: 450px;
+  }
+}
+@media (max-width: 450px){
+  .mainCard{
+    width: 350px;
+  }
+}
+
+footer{
+  margin-top: auto;
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a{
+  color:  #204b83;
+  text-decoration: none;
+}
+footer span a:hover{
+  text-decoration: underline;
+}
+
+.fa{
+    padding: 10px;  
+    text-align: center;  
+    margin: 4px;  
+    font-size: 50px;  
+    width: 40px;  
+}
+.fa-facebook{
+    background: #3B5998;  
+    color: white; 
+    border-radius: 0.4rem;
+    font-size: 2rem;
+}
+.fa-twitter {  
+    background: #2ea3fd;  
+    color: white;  
+    border-radius: 0.4rem;
+  }   
+  .fa-linkedin {  
+    background: #02567e;  
+    color: white;  
+    border-radius: 0.4rem;
+  }  
+  .fa-instagram {  
+    background :rgb(219, 58, 85);  
+    color: white;  
+    border-radius: 0.4rem;
+  }  
+  .fa-github{
+    background: #0b0b0c;  
+    color: white;  
+    border-radius: 0.4rem;
+  }
+  .fa:hover{
+    color:#3a5ba0;
+    background-color: #204b83;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    border-radius: 25px;
+  }
